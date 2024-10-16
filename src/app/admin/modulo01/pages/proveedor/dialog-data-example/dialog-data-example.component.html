@@ -1,0 +1,12 @@
+<h2 mat-dialog-title >Editar dato </h2>
+<mat-dialog-content>
+  <mat-form-field>
+    <mat-label>Nombre</mat-label>
+    <input matInput [(ngModel)]="proveedor.name">
+  </mat-form-field>
+  
+  <mat-form-field>
+    <mat-label>Direccion</mat-label>
+    <textarea matInput [(ngModel)]="proveedor.address"> </textarea>
+  </mat-form-field>
+</mat-dialog-content>
